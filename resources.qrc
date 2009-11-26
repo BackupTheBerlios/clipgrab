@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/img" >
+        <file>splash.png</file>
+        <file>logo.png</file>
+        <file>icon.png</file>
+    </qresource>
+    <qresource prefix="/lng" >
+        <file>clipgrab_fr.qm</file>
+        <file>clipgrab_de.qm</file>
+    </qresource>
+</RCC>
