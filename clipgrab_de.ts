@@ -4,24 +4,29 @@
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="mainwindow.cpp" line="123"/>
+        <location filename="mainwindow.cpp" line="136"/>
         <source>Please wait while ClipGrab is loading information about the video ...</source>
         <translation>Einen Moment Geduld, während ClipGrab Informationen über das Video lädt ...</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="139"/>
+        <location filename="mainwindow.cpp" line="152"/>
         <source>Please enter the link to the video you want to download in the field below.</source>
         <translation>Um ein Video herunterzuladen, musst du den Video-Link in das Eingabefeld einfügen.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="143"/>
+        <location filename="mainwindow.cpp" line="156"/>
         <source>The link you have entered seems to not be recognised by any of the supported portals.&lt;br/&gt;Now ClipGrab will check if it can download a video from that site anyway.</source>
         <translation>Die Adresse, die du eingegeben hast, kann keinem der unterstützten Portale zugeordnet werden.&lt;br/&gt;ClipGrab wird jetzt versuchen, ob sich von dieser Seite trotzdem ein Video herunterladen lässt.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="160"/>
+        <location filename="mainwindow.cpp" line="173"/>
         <source>No downloadable video could be found. Maybe you have entered the wrong link or there is a problem with your connection.</source>
         <translation>Auf dieser Seite wurde leider kein Video gefunden. Vielleicht hast du einen falschen Link eingegeben oder es liegt ein Problem mit deiner Internetverbindung vor.</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="186"/>
+        <source>ClipGrab - Select target path</source>
+        <translation>ClipGrab - Zielverzeichnis auswählen</translation>
     </message>
 </context>
 <context>
@@ -37,22 +42,22 @@
         <translation>© 2009 Philipp Schmieder | http://clipgrab.de</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="96"/>
+        <location filename="mainwindow.ui" line="125"/>
         <source>Start</source>
         <translation>Start</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="102"/>
+        <location filename="mainwindow.ui" line="131"/>
         <source>Search for videos</source>
         <translation>Nach Videos suchen</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="112"/>
+        <location filename="mainwindow.ui" line="141"/>
         <source>Start a new Download</source>
         <translation>Neuen Download starten</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="119"/>
+        <location filename="mainwindow.ui" line="148"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -62,67 +67,160 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="138"/>
+        <location filename="mainwindow.ui" line="167"/>
         <source>Downloads</source>
         <translation>Downloads</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="180"/>
+        <location filename="mainwindow.ui" line="301"/>
         <source>Current Downloads:</source>
         <translation>Momentane Downloads:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="197"/>
+        <location filename="mainwindow.ui" line="318"/>
         <source>Portal</source>
         <translation>Seite</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="202"/>
+        <location filename="mainwindow.ui" line="323"/>
         <source>Title</source>
         <translation>Titel</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="207"/>
+        <location filename="mainwindow.ui" line="328"/>
         <source>Format</source>
         <translation>Format</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="212"/>
+        <location filename="mainwindow.ui" line="333"/>
         <source>Progress</source>
         <translation>Fortschritt</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="230"/>
+        <location filename="mainwindow.ui" line="400"/>
+        <location filename="mainwindow.ui" line="450"/>
+        <source>Target path</source>
+        <translation>Zielverzeichnis</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="429"/>
+        <source>Here you can configure where the downloaded videos are to be saved.</source>
+        <translation>Hier kann festgelegt werden, wo ClipGrab heruntergeladene Videos speichern soll.</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="443"/>
+        <source>Browse ...</source>
+        <translation>Durchsuchen ...</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="457"/>
+        <source>Always save the last used path.</source>
+        <translation>Immer das zuletzt verwendete Verzeichnis verwenden.</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="481"/>
+        <source>Conversion</source>
+        <translation>Konvertierung</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="504"/>
+        <source>Experts can create custom presets for the video conversion here.</source>
+        <translation>Experten können hier eigene Zielformate erstellen.</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="511"/>
+        <source>Format preset</source>
+        <translation type="unfinished">Zielformatbezeichnung</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="521"/>
+        <source>Add new preset</source>
+        <translation>Neues Format erstellen</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="528"/>
+        <source>Remove selected preset</source>
+        <translation>Ausgewähltes Löschen</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="551"/>
+        <source>Audio</source>
+        <translation>Audio</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="563"/>
+        <location filename="mainwindow.ui" line="615"/>
+        <source>Codec</source>
+        <translation>Codec</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="589"/>
+        <location filename="mainwindow.ui" line="677"/>
+        <source>Bitrate (kb/s)</source>
+        <translation>Bitrate (KB/s)</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="596"/>
+        <source>Disable Audio</source>
+        <translation>Audio deaktivieren</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="606"/>
+        <source>Video</source>
+        <translation>Video</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="628"/>
+        <source>Frames/second</source>
+        <translation>Bilder/Sekunde</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="687"/>
+        <source>Disable video</source>
+        <translation>Video deaktivieren</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="179"/>
         <source>Grab this clip!</source>
         <translation>Dieses Video herunterladen!</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="253"/>
+        <location filename="mainwindow.ui" line="202"/>
         <source>Format:</source>
         <translation>Format:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="266"/>
+        <location filename="mainwindow.ui" line="215"/>
         <source>Quality:</source>
         <translation>Qualität:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="303"/>
+        <location filename="mainwindow.ui" line="252"/>
         <source>Please enter the link to the video you want to download in the field below.</source>
         <translation>Um ein Video herunterzuladen, musst du den Video-Link in das Eingabefeld einfügen.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="314"/>
+        <location filename="mainwindow.ui" line="341"/>
+        <source>Open the target folder of the selected download</source>
+        <translation>Zielordner des ausgewählten Downloads öffnen</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="348"/>
+        <source>Cancel selected download</source>
+        <translation>Ausgewählten Download abbrechen</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="360"/>
         <source>Search</source>
         <translation>Suchen</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="320"/>
+        <location filename="mainwindow.ui" line="366"/>
         <source>Enter your seach and hit enter to start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="338"/>
+        <location filename="mainwindow.ui" line="384"/>
         <source>Settings</source>
         <translation>Einstellungen</translation>
     </message>
@@ -179,14 +277,22 @@ p, li { white-space: pre-wrap; }
         <translation>normal</translation>
     </message>
     <message>
-        <location filename="video_dailymotion.cpp" line="75"/>
+        <location filename="video_dailymotion.cpp" line="76"/>
         <source>HD</source>
         <translation>HD</translation>
     </message>
     <message>
-        <location filename="video_dailymotion.cpp" line="82"/>
-        <location filename="video_dailymotion.cpp" line="89"/>
-        <location filename="video_dailymotion.cpp" line="96"/>
+        <location filename="video_dailymotion.cpp" line="84"/>
+        <location filename="video_dailymotion.cpp" line="92"/>
+        <location filename="video_dailymotion.cpp" line="100"/>
+        <source>high</source>
+        <translation>hoch</translation>
+    </message>
+</context>
+<context>
+    <name>video_myspass</name>
+    <message>
+        <location filename="video_myspass.cpp" line="96"/>
         <source>high</source>
         <translation>hoch</translation>
     </message>
@@ -220,15 +326,15 @@ p, li { white-space: pre-wrap; }
         <translation>HD</translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="79"/>
-        <location filename="video_youtube.cpp" line="86"/>
+        <location filename="video_youtube.cpp" line="80"/>
+        <location filename="video_youtube.cpp" line="88"/>
         <source>high</source>
         <translation>hoch</translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="93"/>
-        <location filename="video_youtube.cpp" line="100"/>
-        <location filename="video_youtube.cpp" line="114"/>
+        <location filename="video_youtube.cpp" line="95"/>
+        <location filename="video_youtube.cpp" line="103"/>
+        <location filename="video_youtube.cpp" line="118"/>
         <source>normal</source>
         <translation>normal</translation>
     </message>
